@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+
+\usepackage[left=3cm,top=2cm,right=3cm, bottom=2cm,letterpaper,includeheadfoot]{geometry}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+%\usepackage[sfdefault]{inter}
+\usepackage[T1]{fontenc}
+\usepackage{indentfirst}
+
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{graphicx}
+\usepackage{lmodern,url}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+%\usepackage{url}
+\usepackage{hyperref}
+
+
+\theoremstyle{plain}
+\newtheorem{theo}{Theorem}
+\newtheorem{lem}{Lemma}
+\newtheorem{defn}{Definition}
+\newtheorem{prop}{Proposition}
+\newtheorem{cor}{Corollary}
+\newtheorem{rem}{Remark}
+
+
+%%%%%%%%%%%%%%%%%%
+
+% For compatibility with Pandoc output.
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\begin{document}
+
+\vspace*{-2.5 cm}
+
+\begin{minipage}{0.6\textwidth}
+    \begin{flushleft}
+        \hspace*{-0.5cm}\textbf{Quantitative Methods 1a}\\
+    \end{flushleft}
+\end{minipage}
+\begin{minipage}{0.36\textwidth}
+    \begin{flushright}
+        \includegraphics[scale=0.2]{Full Logo Black.png}
+    \end{flushright}
+\end{minipage}
+
+% Output from e.g. pandoc README.md -o out.tex
+\input{out.tex}
+
+% \bibliographystyle{plain}
+% \bibliography{sample}
+
+\end{document}
